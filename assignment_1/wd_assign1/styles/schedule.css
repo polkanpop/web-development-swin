@@ -1,0 +1,233 @@
+* {
+    margin:0px;
+    padding:0px;
+    letter-spacing:8px;
+    -webkit-font-smoothing: none;
+
+    }
+header, footer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+    color: #c990df;
+    padding-top: 8px;
+
+}
+footer{
+    margin-top: 8px;
+    float: bottom;
+}
+a {
+	text-decoration:none;
+	
+}
+a:link {
+	color:#db7fee;
+	}
+	
+a:visited {
+	color:#db7fee;
+	}
+	
+a:hover {
+	color:#f35eda;
+	animation: shizenB 2s ease-out infinite;
+
+	}
+.head_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    box-shadow: #151515 0px 5px 7px;
+    animation: headImage 2s ease-in-out infinite;
+}
+nav {
+    max-width:100%;
+    background-color:#00000000;
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	box-shadow:black 0px 5px 10px;
+	text-align:center;
+	padding-top:20px;
+    padding-bottom: 40px;
+    background-color: #0e0213;
+    }
+#navline {  
+	font-size:19px;
+    margin-top: 14px;
+	margin-bottom:20px;
+	
+	}
+h1{
+    text-align: center;
+    line-height: 1.8;
+}
+
+body {
+    background-image:url("./images/");
+    background-color:#330928;
+    color:#db7fee;	 
+    }
+aside{
+    height: auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+#home_link{
+    color: #28c2ff;
+}
+#home_link:hover{
+    animation: blink 1.4s linear infinite;
+}
+article{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    text-align:center;
+    letter-spacing:8px;
+    font-size:13px;
+    padding: 20px 30px 20px 30px;
+}
+.article_header{
+    width: 600px;
+    background-color: #0e0213;
+    box-shadow: #000000 0px 5px 10px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 30px;
+    animation: shizenA 2s ease-in-out infinite;
+    padding: 30px 10px 30px 10px;
+}
+.tableCaption{
+    width: auto;
+    background-color: #0c050a;
+    border: 1px solid #fd85f7;
+    border-bottom: #00000000;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 30px;
+    animation: shizenA 2s ease-in-out infinite;
+    padding: 30px 10px 30px 10px;
+}
+.scheduleBlock{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    color: #fab1ea;
+    line-height: 1.6;
+}
+
+#timetable{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 15px;
+    max-width: 80%;
+}
+
+th{
+
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.time{
+    padding: 10px 30px 10px 30px;
+    letter-spacing: 5px;
+    background-color: #c9c9c9;
+    color: #000000;
+    border: 1px solid;
+    border-color: #616161;
+    border-left: 1px solid #fd85f7;
+}
+
+.day{
+    background-color: #0c050a;
+    color: #fd85f7;
+    border: 1px solid #fd85f7;
+}
+
+.webdev{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0013bd;
+    color: #7cdaff;
+
+
+    
+}
+.lunch{
+    background-color: #052b07;
+    color:#66f86e;
+    border: 1px solid #66f86e;
+
+}
+.gc{
+    background-color: #460202;
+    color: #f74c4c;
+    border: 1px solid #f74c4c;
+}
+.indigenousProject{
+    background-color: #3a1403;
+    color: #eb946c;
+    border: 1px solid #eb946c;
+}
+.introProgramming{
+    background-color: #073136;
+    color: #6edbe7;
+    border: 1px solid #6edbe7;
+}
+.freetime{
+    background-color: #0e010a;
+    color: #ee8cde;
+    border: 1px solid #ee8cde;
+}
+footer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+@keyframes headImage {
+    50% {
+        box-shadow: #292929 0px 5px 10px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        color:black;
+    }
+   }
+
+ @keyframes shizenB {
+  50% {
+	  color:#d96af5;
+	  text-shadow:#f783c6 1px 1px 6px;
+	  }
+    }
+ @keyframes shizenA {
+  50% {
+	  color:#e375ff;
+	  text-shadow:#8ef8fc 1px 3px 4px;
+	  }
+    }
