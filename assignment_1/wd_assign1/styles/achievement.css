@@ -1,0 +1,176 @@
+
+/* Menu Template */
+* {
+    margin:0px;
+    padding:0px;
+    letter-spacing:8px;
+    -webkit-font-smoothing: none;
+
+    }
+header, footer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+    color: #c990df;
+    padding-top: 8px;
+
+}
+
+a {
+	text-decoration:none;
+	
+}
+a:link {
+	color:#fdacfd;
+	}
+	
+a:visited {
+	color:#efb0f5;
+	}
+	
+a:hover {
+	color:#f35eda;
+	animation: shizenB 2s ease-out infinite;
+}
+.head_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    box-shadow: #151515 0px 5px 7px;
+    animation: headImage 2s ease-in-out infinite;
+}
+nav {
+    max-width:800px;
+    background-color:#00000000;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	box-shadow:black 0px 5px 10px;
+	text-align:center;
+	padding-top:30px;
+    padding-bottom: 40px;
+    background-color: #0e0213;
+    }
+#navline {  
+	font-size:19px;
+    margin-top: 50px;
+	
+	}
+h1{
+    text-align: center;
+    line-height: 1.8;
+}
+
+body {
+    background-image:url("./images/");
+    background-color:#330928;
+    color:#fdacfd;	 
+    }
+aside{
+    max-width: 37%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    background-color: #030213;
+    box-shadow: #49c0f7 0px 2px 5px;
+}
+#home_link{
+    letter-spacing: 10px;
+    color: #28c2ff;
+}
+aside, #home_link:hover{
+    animation: blink 1.4s linear infinite;
+}
+article{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    text-align:center;
+    letter-spacing:8px;
+    font-size:13px;
+    padding: 20px 0px 45px 0px;
+    max-width: 800px;
+    background-color: #0e0213;
+    box-shadow: black 0px 5px 10px;
+}
+.article_header{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 30px;
+    animation: shizenA 2s ease-in-out infinite;
+    padding: 20px 0px 20px 0px;
+}
+footer{    
+    float: bottom;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    margin-top: 40px;
+}
+
+@keyframes headImage {
+    50% {
+        box-shadow: #292929 0px 5px 10px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        color:black;
+    }
+   }
+
+ @keyframes shizenB {
+  50% {
+	  color:#d96af5;
+	  text-shadow:#f783c6 1px 1px 6px;
+	  }
+    }
+ @keyframes shizenA {
+  50% {
+	  color:#e375ff;
+	  text-shadow:#8ef8fc 1px 3px 4px;
+	  }
+    }
+@keyframes shizenHome {
+    50% {
+        box-shadow: #163486 0px 5px 10px;
+    }
+
+}
+
+/* Individual Page Style */
+
+.text{
+    font-size: 17px;
+    padding: 0px 35px 0px 35px;
+    line-height: 1.8;
+}
+
+.flexing{
+    color: #3ed2f7;
+    text-shadow: #f171e0 1px 3px 2px;
+    font-weight: bold;
+
+}
+#ielts{
+    max-width: 50%;
+    margin-top: 30px;
+    box-shadow: #39c7ff 0px 5px 10px;
+    animation: shizenIELTS 2s ease-in-out infinite;
+}
+
+@keyframes shizenIELTS{
+    50%{
+        box-shadow: #e375ff 0px 5px 10px
+    }
+}

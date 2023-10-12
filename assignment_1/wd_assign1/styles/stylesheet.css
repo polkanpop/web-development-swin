@@ -132,29 +132,66 @@ footer{
     margin-right: auto;
     padding-top: 8px;
 }
-/* Special homepage menu button */
 
-aside{
-    height: auto;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 30px;
-    font-size: 25px;
-}
-    
 #animelist{
-    max-width: 900px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 40px;
     text-align: center;
     line-height: 1.8;
     list-style: none;
-    color: rgb(217, 203, 253);
+    color: #ffa1eb;
     font-size: 20px;
+}
+
+#message{ 
+    margin-top: 40px;
+}
+
+label{
+    font-size: 15px;
+}
+.userInput{
+    margin-top: 30px;
+    max-width: 100%;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid #48bdf3;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #00000000;
+    color: #e591ff;
+    letter-spacing: 2px;
+}
+#messageInput{
+    resize: none;
+    margin-top: 15px;
+    width: 600px;
+    height: 200px ;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #00000000;
+    border-color: #40b6fa;
+    border-radius: 3px;
+    color: #e591ff;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+input[type=text], #messageInput:focus{
+    outline: none;
+}
+input[type=submit]{
+    margin-top: 15px;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #00000000;
+    color: #40b6fa;
+    border-color: #40b6fa;
+    border-radius: 3px;
+}
+
+input[type=submit]:hover{
+    background-color: #061c35;
 }
 @keyframes blink {
     50% {

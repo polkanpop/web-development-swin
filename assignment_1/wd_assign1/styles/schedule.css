@@ -1,3 +1,5 @@
+
+/* Menu Template */
 * {
     margin:0px;
     padding:0px;
@@ -15,27 +17,23 @@ header, footer{
     padding-top: 8px;
 
 }
-footer{
-    margin-top: 8px;
-    float: bottom;
-}
+
 a {
 	text-decoration:none;
 	
 }
 a:link {
-	color:#db7fee;
+	color:#fdacfd;
 	}
 	
 a:visited {
-	color:#db7fee;
+	color:#efb0f5;
 	}
 	
 a:hover {
 	color:#f35eda;
 	animation: shizenB 2s ease-out infinite;
-
-	}
+}
 .head_img{
     display: block;
     margin-left: auto;
@@ -45,23 +43,21 @@ a:hover {
     animation: headImage 2s ease-in-out infinite;
 }
 nav {
-    max-width:100%;
+    max-width:800px;
     background-color:#00000000;
-	width:800px;
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;
 	box-shadow:black 0px 5px 10px;
 	text-align:center;
-	padding-top:20px;
+	padding-top:30px;
     padding-bottom: 40px;
     background-color: #0e0213;
     }
 #navline {  
 	font-size:19px;
-    margin-top: 14px;
-	margin-bottom:20px;
+    margin-top: 50px;
 	
 	}
 h1{
@@ -72,24 +68,69 @@ h1{
 body {
     background-image:url("./images/");
     background-color:#330928;
-    color:#db7fee;	 
+    color:#fdacfd;	 
     }
 aside{
-    height: auto;
-    max-width: 400px;
+    max-width: 37%;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 45px;
-    padding-bottom: 30px;
-    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    background-color: #030213;
+    box-shadow: #49c0f7 0px 2px 5px;
 }
 #home_link{
+    letter-spacing: 10px;
     color: #28c2ff;
 }
-#home_link:hover{
+aside, #home_link:hover{
     animation: blink 1.4s linear infinite;
 }
+footer{    
+    float: bottom;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    margin-top: 40px;
+}
+
+@keyframes headImage {
+    50% {
+        box-shadow: #292929 0px 5px 10px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        color:black;
+    }
+   }
+
+ @keyframes shizenB {
+  50% {
+	  color:#d96af5;
+	  text-shadow:#f783c6 1px 1px 6px;
+	  }
+    }
+ @keyframes shizenA {
+  50% {
+	  color:#e375ff;
+	  text-shadow:#8ef8fc 1px 3px 4px;
+	  }
+    }
+@keyframes shizenHome {
+    50% {
+        box-shadow: #163486 0px 5px 10px;
+    }
+    
+}
+
+/* Table */
+
 article{
     margin-left:auto;
     margin-right:auto;
@@ -97,11 +138,11 @@ article{
     text-align:center;
     letter-spacing:8px;
     font-size:13px;
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 0px 30px;
 }
 .article_header{
     width: 600px;
-    background-color: #0e0213;
+    background-color: #0e0213; 
     box-shadow: #000000 0px 5px 10px;
     margin-left:auto;
     margin-right:auto;
@@ -109,9 +150,13 @@ article{
     animation: shizenA 2s ease-in-out infinite;
     padding: 30px 10px 30px 10px;
 }
+
+
+
+/* Table Style */
 .tableCaption{
     width: auto;
-    background-color: #0c050a;
+    background-color: #0e0213;
     border: 1px solid #fd85f7;
     border-bottom: #00000000;
     margin-left:auto;
@@ -124,14 +169,6 @@ article{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-.text{
-    font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 5px;
-    color: #fab1ea;
-    line-height: 1.6;
 }
 
 #timetable{
@@ -200,34 +237,3 @@ th{
     color: #ee8cde;
     border: 1px solid #ee8cde;
 }
-footer{
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8px;
-}
-
-@keyframes headImage {
-    50% {
-        box-shadow: #292929 0px 5px 10px;
-    }
-}
-
-@keyframes blink {
-    50% {
-        color:black;
-    }
-   }
-
- @keyframes shizenB {
-  50% {
-	  color:#d96af5;
-	  text-shadow:#f783c6 1px 1px 6px;
-	  }
-    }
- @keyframes shizenA {
-  50% {
-	  color:#e375ff;
-	  text-shadow:#8ef8fc 1px 3px 4px;
-	  }
-    }
