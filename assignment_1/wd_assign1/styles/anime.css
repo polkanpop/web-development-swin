@@ -57,6 +57,7 @@ nav {
 #navline {  
 	font-size:19px;
     margin-top: 50px;
+    line-height: 1.6;
 	
 	}
 h1{
@@ -153,6 +154,19 @@ footer{
     margin-left: auto;
     text-align: center;
     line-height: 1.8;
-    color: rgb(217, 203, 253);
-    font-size: 20px;
+    color: #f5cbfd;
+    font-size: 18px;
+}
+.animeName{
+    color: #e375ff;
+    animation: shizenA 2s ease-in-out infinite;
+}
+li{
+    color: #28c2ff;
+    text-align: left;
+    padding-left: 20px;
+}
+.lineBreak{
+
+    padding-left: 40px;
 }

@@ -56,6 +56,7 @@ nav {
 #navline {  
 	font-size:19px;
     margin-top: 50px;
+    line-height: 1.6;
 	
 	}
 h1{
@@ -106,6 +107,22 @@ article{
     animation: shizenA 2s ease-in-out infinite;
     padding: 20px 0px 20px 0px;
 }
+.text{
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
+    letter-spacing: 7px;
+
+
+
+}
+.nightcity{
+    max-width: 60%;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: #ff38c3 0px 5px 10px;
+    animation: nightCity 1.8s ease-in-out infinite;
+}
 footer{    
     max-width: 700px;
     margin-left: auto;
@@ -143,4 +160,9 @@ footer{
         box-shadow: #163486 0px 5px 10px;
     }
 
+}
+@keyframes nightCity{
+    50%{
+        box-shadow: #28c2ff 0px 5px 10px;
+    }
 }
