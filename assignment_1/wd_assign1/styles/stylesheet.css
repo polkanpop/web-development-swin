@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
     letter-spacing:8px;
-    -webkit-font-smoothing: none;
 
     }
 header, footer{
@@ -17,7 +16,6 @@ header, footer{
 }
 footer{
     margin-top: 8px;
-    float: bottom;
 }
 a {
 	text-decoration:none;
@@ -46,7 +44,6 @@ a:hover {
     height: auto;
     border: 3px solid;
     border-radius: 50%;
-    box-shadow: #b652d4;
     animation: shizenBorder 2s ease-in-out infinite; 
 }
 
