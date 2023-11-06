@@ -5,18 +5,37 @@ function validate() {
 	var pwd2 = document.getElementById("pwd2").value;
 	var uname = document.getElementById("uname").value;
 	/* __(8)__ */
-
+	var genm = document.getElementById("genm").checked;
+	var genf = document.getElementById("genf").checked;
 	var errMsg = "";						/* stores the error message */
 	var result = true;							/* assumes no errors */
 	var pattern = /^[a-zA-Z ]+$/;		/* regular expression for letters and spaces only */
 
 	/* Rule 1, check if all required inputs have value */
 	/* __(9)__ */
-	
-	
+	if (sid == "") {
+		errMsg += "User ID cannot be empty.\n"
+	}
+	if (pwd1 == ""){
+		errMsg += "Password cannot be empty.\n"
+	}
+	if (pwd2 == "") {
+		errMsg += "Retype password cannot be empty.\n"
+	}
+	if (uname == ""){
+		errMsg += "User name cannot be empty.\n";
+	}
+	if ((genm == "") && (genf == "")){
+		errMsg += "Must select gender.\n";
+	}
 	/* Rule 2, check if the user ID contains an @ symbol  */
 	/* __(10)__ */
-	
+	if (sid.indexOf('@') == 0){
+		errMsg += "User ID cannot start with an @ symbol.\n";
+	}
+	if (sid.indexOf('@') < 0){
+		errMsg += "User ID must contain an @ symbol.\n";
+	}
 	/* Rule 3, check if password and retype password are the same */
 	if (pwd1 != pwd2) {
 		errMsg += "Passwords do not match.\n";
