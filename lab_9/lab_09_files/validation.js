@@ -6,12 +6,13 @@ function validate() {
 	var uname = document.getElementById("uname").value;
 	/* __(8)__ */
 
-	var errMsg = "";								/* stores the error message */
+	var errMsg = "";						/* stores the error message */
 	var result = true;							/* assumes no errors */
 	var pattern = /^[a-zA-Z ]+$/;		/* regular expression for letters and spaces only */
 
 	/* Rule 1, check if all required inputs have value */
 	/* __(9)__ */
+	
 	
 	/* Rule 2, check if the user ID contains an @ symbol  */
 	/* __(10)__ */
