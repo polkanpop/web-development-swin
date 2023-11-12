@@ -4,17 +4,20 @@
 	<meta charset="utf-8" />	
 	<meta name="description" content="Web development" />
 	<meta name="keywords"    content="Registration Form" />
-	<meta name="author"      content="put your name here" />
-	<!-- (1) -->
-	<!-- (2) -->
-	<!-- (3) -->
-	<!-- (4) -->
+	<meta name="author"      content="Luu Hieu Khang" />
+	<!-- (1) --> <link href="./regform2_desktop.css" rel="stylesheet">
+	<!-- (2) --> <link href="./modal.css"            rel="stylesheet">
+	<!-- (3) --> <script src="./jquery.min.js"></script>
+	<!-- (4) --> <script src="./validation.js"></script>
 	<title>Web Development Form Validation Demo</title>
 </head>
 <body>
 	<form id="regform" method="post"
 				action="http://mercury.ict.swin.edu.au/it000000/formtest.php">
-		<!-- (5) -->
+		<!-- (5) --> <div>
+						<a href="#" class="collapse">[-]</a>
+						<span>Section A</span>
+					 </div> 
 		<fieldset>
 			<legend>Account Information</legend>
 			<div class="textinput">
@@ -30,7 +33,10 @@
 				<input id="pwd2" type="password" name="pwd2" />
 			</div>
 		</fieldset>
-		<!-- (6) -->
+		<!-- (6) --> <div>
+						<a href="#" class="collapse">[-]</a>
+						<span>Section B</span>
+					 </div> 
 		<fieldset>
 			<legend>User Information</legend>
 			<div class="textinput">
