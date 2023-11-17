@@ -85,10 +85,10 @@ header span{
     font-size: 18px;
     color: #fff3be;
     width: 600px;
-    margin: 20px 0;
+    margin: 10px 0;
     letter-spacing: 8px;
     line-height: 1.4;
-    text-align: justify;
+    text-align: left;
 }
 .introImage img{
     width: 500px;
@@ -97,4 +97,13 @@ header span{
     50%{
         text-shadow: 5px 0px 6px #ff0000;
     }
+}
+
+#shop{
+    margin-top: 40vh;
+}
+#shop h1{
+    font-size: 60px;
+    text-align: center;
+    animation: pinkShadow 2s ease-in-out infinite;
 }
