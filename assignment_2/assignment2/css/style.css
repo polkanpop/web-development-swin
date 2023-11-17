@@ -1,33 +1,100 @@
+
+/* GLOBAL */
 *{
-    letter-spacing: 4px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
 }
 body{
-    background-color: #d7e6da
-
+    background-color: #010001;
+    color: #ffff53;
 }
 header{
-    font-size: 60px;
-    color: #2d702a;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #f1c500;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
 }
-
-
-.welcomeHeader{
-    letter-spacing: 20px;
-    text-align: center;
+header span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.moodiepop{
+#navbar li{
+    position: relative;
+    padding: 0 20px;
+    list-style: none;
+}
+#navbar li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
     letter-spacing: 10px;
-    color: #3ca352;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #000000;
+}
+/* HOME */
+
+#hero{
+    background-image: url("../images/background-daze.png");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h1{
+    font-size: 50px;
+    letter-spacing: 24px;
+    color: #ffff53;
+    height: 320px;
+    text-shadow: 3px 0px 4px red;
 }
 
-.logo{
-
-    width: 95px;
-    border-radius: 50px;
+#introduction{
+    margin: 80px 100px;
+    display: flex;
 }
-.nav-container{
-    background-color: #2d702a;
-    
+
+#introduction h1{
+    font-size: 40px;
+    animation: pinkShadow 2s ease-in-out infinite;
+}
+#introduction p{
+    font-size: 18px;
+    color: #fff3be;
+    width: 600px;
+    margin: 20px 0;
+    letter-spacing: 8px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.introImage img{
+    width: 500px;
+}
+@keyframes pinkShadow{
+    50%{
+        text-shadow: 5px 0px 6px #ff0000;
+    }
 }
