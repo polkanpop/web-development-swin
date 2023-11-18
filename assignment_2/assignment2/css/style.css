@@ -80,6 +80,7 @@ header span{
 #introduction h1{
     font-size: 40px;
     animation: pinkShadow 2s ease-in-out infinite;
+    letter-spacing: 10px;
 }
 #introduction p{
     font-size: 18px;
@@ -106,4 +107,15 @@ header span{
     font-size: 60px;
     text-align: center;
     animation: pinkShadow 2s ease-in-out infinite;
+}
+.shopContainer{
+    display: flex;
+    margin-top: 20px;
+    width: 1200px;
+    align-items: stretch;
+
+}
+.shopContent{
+    background-color: rgb(19, 0, 6);
+    width: 360px;
 }
