@@ -58,17 +58,20 @@ header span{
     height: 70vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0 200px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+
 }
 #hero h1{
     font-size: 50px;
     letter-spacing: 24px;
     color: #ffff53;
-    height: 320px;
+    height: 150px;
     text-shadow: 3px 0px 4px red;
 }
 
@@ -110,12 +113,24 @@ header span{
 }
 .shopContainer{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 1200px;
     align-items: stretch;
 
+
 }
 .shopContent{
-    background-color: rgb(19, 0, 6);
+    background-color: #2b2400;
     width: 360px;
+    height: 100%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+.shopContent h2{
+    text-align: center;
+    
+}
+.shopContent p{
+    margin-top: 10px;
 }
