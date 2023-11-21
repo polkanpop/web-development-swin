@@ -47,18 +47,19 @@ nav{
 #navbar li a.active{
     color: #000000;
 }
-
 .hero h1{
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     letter-spacing: 30px;
     text-shadow: 5px 0px 5px red;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
-.hero{
+.heroImage{
     background-image: url(../images/background-daze.png);
     background-size: cover;
     background-position: center center;
-    height: 45vh;
+    height: 280px
 }
 .introImage img{
     width: 35%;
@@ -67,4 +68,22 @@ nav{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
+}
+.intro{
+    margin: 0px 30px;
+}
+.introText h2{
+    font-size: 36px;
+    margin: 0;
+}
+.introText p{
+    margin: 15px 0px;
+    letter-spacing: 6px;
+}
+
+@keyframes redshadow {
+    50%{
+        text-shadow: 5px 0px 10px red;
+    }
 }
