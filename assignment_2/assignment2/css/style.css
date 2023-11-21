@@ -17,7 +17,7 @@ a{
 
 nav{
     background-color: #f1c500;
-    padding: 10px 0px;
+    padding: 2px 0px;
     margin: 0px 0px;
     position: sticky;
     z-index: 999;
@@ -29,6 +29,7 @@ nav{
     padding: 0;
     display: flex;
     justify-content: center;
+    margin: 12px 0px;
 }
 #navbar li{
     position: relative;
@@ -47,11 +48,16 @@ nav{
 #navbar li a.active{
     color: #000000;
 }
+#navbar li span{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
 .hero h1{
     font-size: 50px;
     text-align: center;
     letter-spacing: 30px;
-    text-shadow: 5px 0px 5px red;
+    text-shadow: 5px 0px 3px red;
     margin-top: 70px;
     margin-bottom: 20px;
 }
@@ -66,24 +72,102 @@ nav{
 }
 .introImage{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 .intro{
-    margin: 0px 30px;
+    margin: 150px 30px;
 }
-.introText h2{
+h2{
     font-size: 36px;
     margin: 0;
+    animation: redshadow 2s ease-in-out infinite;
+
 }
 .introText p{
     margin: 15px 0px;
     letter-spacing: 6px;
+    font-size: 17px;
 }
+.shopHeader{
+    text-align: center;
+}
+.shopContainer{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+    width: 100%;
 
+}
+.shopItem{
+    padding-top: 40px;
+    padding-left: 15px;
+    margin: 30px 15px 15px 15px;
+    text-align: center;
+    width: 30%;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+    background: #000000;
+    letter-spacing: 4px;
+    line-height: 1.3;
+
+
+}
+.shopItem:hover{
+    transform: translate(0px, -10px);
+
+}
+.shopItem img{
+    max-width: 300px;
+    max-height: 240px;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.shopItem p{
+    letter-spacing: 5px;
+}
+.shopItem button{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 15px;
+    background-color: #f1c500;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top:5px ;
+}
+.shopItem h3{
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+.shopItem .price{
+    font-size: 38px;
+    font-weight: 600;
+}
+.item1 button{
+    background: #ff2c2c;
+}
+.item2 button{
+    background: white;
+}
+.item1{
+    color:#ff2c2c
+}
+.item2{
+    color: white;
+}
 @keyframes redshadow {
     50%{
-        text-shadow: 5px 0px 10px red;
+        text-shadow: 3px 0px 3.5px red;
     }
 }
