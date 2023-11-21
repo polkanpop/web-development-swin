@@ -67,8 +67,13 @@ nav{
     background-position: center center;
     height: 280px
 }
+.heroText{
+    padding-top: 300px;
+    padding-left: 10vh;
+}
 .introImage img{
     width: 35%;
+    margin-top: 100px;
 }
 .introImage{
     text-align: center;
