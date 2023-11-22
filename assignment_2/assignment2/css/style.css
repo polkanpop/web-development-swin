@@ -33,15 +33,15 @@ nav{
 }
 #navbar li{
     position: relative;
-    padding: 0 20px;
+    padding: 0 50px;
     list-style: none;
 }
 #navbar li a{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     transition: 0.3s ease;
 }
 #navbar li a:hover,
@@ -53,13 +53,16 @@ nav{
     font-size: 20px;
     font-weight: 600;
 }
-.hero h1{
+h1{
     font-size: 50px;
     text-align: center;
     letter-spacing: 30px;
     text-shadow: 5px 0px 3px red;
     margin-top: 70px;
     margin-bottom: 20px;
+}
+.hero{
+    margin-top: 100px;
 }
 .heroImage{
     background-image: url(../images/background-daze.png);
@@ -68,7 +71,7 @@ nav{
     height: 280px
 }
 .heroText{
-    padding-top: 300px;
+    padding-top: 500px;
     padding-left: 10vh;
 }
 .introImage img{
@@ -95,6 +98,7 @@ h2{
     font-size: 20px;
 }
 .shopHeader{
+    margin-top: 420px;
     text-align: center;
 }
 .shopContainer{
@@ -161,16 +165,21 @@ h2{
     font-weight: 600;
 }
 .item1 button{
-    background: #ff2c2c;
+    background: #9729ff;
 }
 .item2 button{
     background: white;
 }
 .item1{
-    color:#ff2c2c
+    color:#e875ff
 }
 .item2{
     color: white;
+}
+.notPlush{
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #ffffff7a;
 }
 @keyframes redshadow {
     50%{
