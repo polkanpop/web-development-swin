@@ -13,9 +13,39 @@
     <nav>
         <ul id="navbar">
             <li><span>⌈        </span><a href="./index.html">Home</a></li>
-            <li><a href="./order.html">Order</a></li>
+            <li style="padding-top: 2px;"><a href="./order.html">Order</a></li>
             <li><a class="active" href="./register.html">Register</a><span>        ⌋</span></li>
         </ul>
     </nav>
+
+    <section class="register">
+        <form action="#">
+            <div class="formContainer">
+                <h1>Register</h1>
+                <hr>
+
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                <label for="male"><b style="letter-spacing: 5px;">Male</b></label>
+                <input type="radio" name="gender" id="male">
+
+                <label for="female"><b style="letter-spacing: 5px;">Female</b></label>
+                <input type="radio" name="gender" id="female">
+
+                <hr>
+            </div>
+        </form>
+    </section>
+
 </body>
 </html>
