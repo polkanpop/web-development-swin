@@ -117,7 +117,6 @@ h2{
     width: 30%;
     float: left;
     border-radius: 20px;
-    cursor: pointer;
     transition: .2s;
     background: #000000;
     letter-spacing: 4px;
@@ -221,4 +220,11 @@ input[type=text], input[type=password] {
   }
 .formContainer{
     padding: 100px;
+}
+input, select, textarea{
+    color: #fff23f;
+}
+
+textarea:focus, input:focus {
+    color: #fff23f;
 }
