@@ -19,7 +19,7 @@
     </nav>
 
     <section class="register">
-        <form action="#">
+        <form action="#" id="registerForm">
             <div class="formContainer">
                 <h1>Register</h1>
                 <hr>
@@ -42,7 +42,32 @@
                 <label for="female"><b style="letter-spacing: 5px;">Female</b></label>
                 <input type="radio" name="gender" id="female">
 
+                <br><br>
+                <label for="colors"><b>Your favorite color is:</b></label>
+                <select name="colors" id="colors">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="orange">Orange</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                </select>
+
+                <br><br>
+
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Likes strange plushies</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Likes cute plushies</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Likes creepy plushies</label><br><br>
+
                 <hr>
+                <div class="submitButton">
+                    <input type="submit" value="Submit">
+                </div>
+
             </div>
         </form>
     </section>

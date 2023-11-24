@@ -191,10 +191,10 @@ h2{
 
 label{
     padding-left: 10px;
+    font-size: 20px;
 }
-
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password]{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -215,7 +215,7 @@ input[type=text], input[type=password] {
   
   /* Overwrite default styles of hr */
   hr {
-    border: 0.5px solid #f1f1f1;
+    border: 0.5px solid #ffec82;
     margin-bottom: 25px;
   }
 .formContainer{
@@ -227,4 +227,27 @@ input, select, textarea{
 
 textarea:focus, input:focus {
     color: #fff23f;
+}
+select{
+    background-color: #000000;
+    width: 120px;
+    border: 2px solid rgb(95, 95, 0);
+    border-radius: 2px;
+}
+option{
+    letter-spacing: 5px;
+}
+input[type=submit]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    font-size: 21px;
+    text-shadow: 2px 0px 2px red;
+    border-radius: 3px;
+    border-color: #f1c500;
+}
+.submitButton{
+    text-align: center;
 }
