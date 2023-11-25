@@ -198,7 +198,6 @@ label{
     padding-left: 10px;
     font-size: 20px;
 }
-/* Full-width input fields */
 input[type=text], input[type=password], input[type=number]{
     width: 100%;
     padding: 15px;
@@ -258,7 +257,7 @@ input[type=submit]{
 }
 
 .order {
-    width: 1400px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -273,6 +272,10 @@ input[type=text], input[type=number]{
     width: 75%;
     margin-left: 18px;
 }
+#username{
+    width: 100%;
+    margin: 5px 0 22px 0;
+}
 #cardYes{
-    text-align: center;
+    text-align: center ;
 }
