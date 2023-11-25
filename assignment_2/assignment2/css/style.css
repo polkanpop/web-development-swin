@@ -228,6 +228,9 @@ input[type=text], input[type=password], input[type=number]{
   }
 .formContainer{
     padding: 50px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #ffec82
 }
 input, select, textarea{
     color: #fff23f;
