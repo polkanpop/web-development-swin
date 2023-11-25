@@ -30,77 +30,75 @@
                     <legend>Fill in the necessary information</legend>
                     <br><br>
                     <div class="fieldContent">
-                        <div class="radioInput">
-                        <h3>How will you take your order?</h3><br>
-                        <input type="radio" onclick="yesnoCheck();" name="takeOrder" id="delivery" value="delivery">
-                        <label for="delivery">Delivery</label>
-                        <input type="radio" onclick="yesnoCheck();" name="takeOrder" id="pickUp" value="pickup">
-                        <label for="pickUp">Pick-up</label>
-                        </div>
-                    <br>
-                    <br>
-                    <div class="textinput">
-                        <h3>Contacts</h3>
-                        <input id="contact" type="number" name="contact">
-                    </div>
-                    <div class="textinput">
-                        <h3>Email</h3>
-                        <input type="text" id="email" name="email">
-                    </div>
-                    <div class="radioInput">
-                        <h3>Payment method</h3>
-                        <br>
-                        <input type="radio" onclick="yesCheck();" name="pay" id="paypickup" value="on_pick-up">
-                        <label for="paypickup">Cash</label>
-                        <input type="radio" onclick="yesCheck();" name="pay" id="payonline" value="online">
-                        <label for="payonline">Online</label>
-                    </div>
-                    <br><br>
-                    <div id="deliveryYes" style="visibility: hidden">
-                        <div class="textinput">
-                            <h3>Delivery address</h3>
-                            <input id="deliadd" type="text" name="delivery_address">
-                        </div>
-                        <h3>Billing address</h3>
-                        <input id="billadd" type="text" name="billing_adress">
-                        <div class="radioinput">
-                            <label for="same"> Billing address same as delivery address</label>
-                            <input id="same" type="checkbox" name="same_as_delivery_address" value="yes"
-                                onclick="copy(event)">
-                        </div>
-                            
+                            <div class="radioInput">
+                                <h3>How will you take your order?</h3><br>
+                                <input type="radio" onclick="yesnoCheck();" name="takeOrder" id="delivery" value="delivery">
+                                <label for="delivery">Delivery</label>
+                                <input type="radio" onclick="yesnoCheck();" name="takeOrder" id="pickUp" value="pickup">
+                                <label for="pickUp">Pick-up</label>
+                            </div><br><br>
+                            <div class="textinput">
+                                <h3>Contacts</h3>
+                                <input id="contact" type="number" name="contact">
+                            </div>
+                            <div class="textinput">
+                                <h3>Email</h3>
+                                <input type="text" id="email" name="email">
+                            </div>
+                                <div class="radioInput">
+                                <h3>Payment method</h3>
+                                <br>
+                                <input type="radio" onclick="yesCheck();" name="pay" id="paypickup" value="on_pick-up">
+                                <label for="paypickup">Cash</label>
+                                <input type="radio" onclick="yesCheck();" name="pay" id="payonline" value="online">
+                                <label for="payonline">Online</label>
+                            </div>
+                            <br><br>
+                            <div id="deliveryYes" style="visibility: hidden">
+                                <div class="textinput">
+                                    <h3>Delivery address</h3>
+                                    <input id="deliadd" type="text" name="delivery_address">
+                                </div>
+                                <h3>Billing address</h3>
+                                <input id="billadd" type="text" name="billing_adress">
+                                <div class="radioinput">
+                                    <label for="same"> Billing address same as delivery address</label>
+                                    <input id="same" type="checkbox" name="same_as_delivery_address" value="yes"
+                                        onclick="copy(event)">
+                                </div>
+
 
                     </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div id="cardYes" style="visibility: hidden">
+                        
+                                <h2>Card information</h2>
+                                <br>
+                                <div class="fieldContent">
+                                    <h3>Type of card</h3><br>
+                                    <input type="radio" id="visa" name="card_type" value="Visa">
+                                    <label for="visa">Visa</label>
+                                    <input type="radio" id="master" name="card_type" value="Mastercard">
+                                    <label for="master">Mastercard</label>
+                                    <input type="radio" id="american" name="card_type" value="American_Express">
+                                    <label for="american">American Express</label>
+                                
+                                    <br><br>
+                                    <h3>Enter credit card number</h3>
+                                    <input id="creditnumber" type="number" name="credit_number">
+                                </div>
+                            
+                        </div>
+                    </div>    
+                    <div class="submitButton">
+                        <input type="submit" value="Submit">
                     </div>
                 </fieldset>
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <div id="cardYes" style="visibility: hidden">
-
-                        <h2>Card information</h2>
-                        <br>
-                        <div class="fieldContent">
-                            <h3>Type of card</h3><br>
-                            <input type="radio" id="visa" name="card_type" value="Visa">
-                            <label for="visa">Visa</label>
-                            <input type="radio" id="master" name="card_type" value="Mastercard">
-                            <label for="master">Mastercard</label>
-                            <input type="radio" id="american" name="card_type" value="American_Express">
-                            <label for="american">American Express</label>
-
-                            <br><br>
-                            <h3>Enter credit card number</h3>
-                            <input id="creditnumber" type="number" name="credit_number">
-                        </div>
-
-                </div>
             </div>    
-            <div class="submitButton">
-                <input type="submit" value="Submit">
-            </div>
         </form>
     </section>
 </body>
