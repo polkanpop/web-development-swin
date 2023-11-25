@@ -5,6 +5,14 @@
     margin-top: 100px;
     letter-spacing: 20px;
 }
+#navbar li {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#orderLink{
+    padding-top: 0px;
+}
 #navbar li a{
     font-size: 15px;
     letter-spacing: 5px;
